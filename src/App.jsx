@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar"
 import NavbarBanner from "./components/Navbar/NavbarBanner";
 import Hero  from "./components/Hero/Hero";
-// import NumberCounter from "./components/NumberCounter/NumberCounter";
+import NumberCounter from "./components/Navbar/NumberCounter";
 // import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 // // import Img1 from "./assets/banner1.png";
 // // import Img2 from "./assets/banner2.png";
@@ -35,8 +35,8 @@ const App = () => {
       <Navbar />
       <NavbarBanner />
       <Hero/>
-      {/* <NumberCounter />
-      <WhyChooseUs />
+      <NumberCounter />
+      {/* <WhyChooseUs />
       <Banner {...BannerData} />
       <Banner {...BannerData2} reverse={true} />
       <SubjectCard />
