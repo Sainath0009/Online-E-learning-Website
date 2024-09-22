@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar"
 import NavbarBanner from "./components/Navbar/NavbarBanner";
-// import Hero from "./components/Hero/Hero";
+import Hero  from "./components/Hero/Hero";
 // import NumberCounter from "./components/NumberCounter/NumberCounter";
 // import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 // // import Img1 from "./assets/banner1.png";
@@ -34,8 +34,8 @@ const App = () => {
     <main className="overflow-x-hidden">
       <Navbar />
       <NavbarBanner />
-      {/* <Hero />
-      <NumberCounter />
+      <Hero/>
+      {/* <NumberCounter />
       <WhyChooseUs />
       <Banner {...BannerData} />
       <Banner {...BannerData2} reverse={true} />
