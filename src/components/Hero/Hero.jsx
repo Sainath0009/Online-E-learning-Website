@@ -1,7 +1,7 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { SlideRight } from "../../utility/animation";
+import { SlideRight } from "../../utility/animation.js";
 
 const Hero = () => {
   return (
