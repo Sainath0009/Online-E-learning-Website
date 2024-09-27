@@ -40,15 +40,3 @@ Follow these steps to set up and run the project locally:
 
 4. **Open your browser** at [http://localhost:3000](http://localhost:3000) to view the website.
 
-## 🗂️ Folder Structure
-
-```plaintext
-.
-├── public          # Public files
-├── src
-│   ├── assets      # Images, icons, and static assets
-│   ├── components  # Reusable React components
-│   ├── pages       # Main website pages
-│   ├── styles      # Global styles and Tailwind CSS config
-│   └── animations  # Framer Motion animation configurations
-└── package.json    # Project dependencies and scripts
