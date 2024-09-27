@@ -8,7 +8,7 @@ import Img1 from "./assets/banner1.png";
 import Img2 from "./assets/banner2.png";
 import Banner from "./components/Banner"
 import SubjectCard from "./components/SubjectCard"
-// import Testimonial from "./components/Testimonial/Testimonial";
+import Testimonial from "./components/Testimonial"
 import Footer from "./components/Footer/Footer";
 
 const BannerData = {
@@ -40,7 +40,7 @@ const App = () => {
       <Banner {...BannerData} />
       <Banner {...BannerData2} reverse={true} />
       <SubjectCard />
-      {/* <Testimonial /> */}
+      <Testimonial />
       <Footer />
     </main>
   );
