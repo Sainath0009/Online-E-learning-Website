@@ -3,7 +3,7 @@ import { GrYoga } from "react-icons/gr";
 import { FaDumbbell } from "react-icons/fa6";
 import { GiGymBag } from "react-icons/gi";
 import { motion } from "framer-motion";
-import { SlideLeft } from "../utility/animation"
+import { SlideLeft } from "../utility/animation";
 
 const WhyChooseData = [
   {
@@ -26,7 +26,7 @@ const WhyChooseData = [
   {
     id: 3,
     title: "Interactive Whiteboard",
-    desc: "Our digital whiteboard equipped with audio and video chat fetures.",
+    desc: "Our digital whiteboard equipped with audio and video chat features.",
     link: "/",
     icon: <GiGymBag />,
     bgColor: "#fa6400",
@@ -42,6 +42,7 @@ const WhyChooseData = [
     delay: 0.9,
   },
 ];
+
 const WhyChooseUs = () => {
   return (
     <div className="bg-[#f9fafc]">
@@ -60,6 +61,7 @@ const WhyChooseUs = () => {
           {WhyChooseData.map((item) => {
             return (
               <motion.div
+                key={item.id} 
                 variants={SlideLeft(item.delay)}
                 initial="hidden"
                 whileInView={"visible"}
